@@ -57,7 +57,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
           deleteLocalFiles([image_filtered_path]);       
         });   
       }).catch(function(err){
-        res.status(400).send('Error:' + err + 'For some reason the image cannot be filtered. Please provide the following ID to our support:' + Math.random().toString(36).substr(2, 9));
+        res.status(400).send('Error:' + err);
       });  
 
     }
