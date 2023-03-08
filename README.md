@@ -47,3 +47,7 @@ Prevent requests without valid authentication headers.
 Add your own domain name and have it point to the running services (try adding a subdomain name to point to the processing server)
 > !NOTE: Domain names are not included in AWS’ free tier and will incur a cost.
 # Udacity-project-2
+
+### Linl to the running eb deployment
+
+http://sam-sam-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://super.abril.com.br/wp-content/uploads/2019/04/gato_site.png
